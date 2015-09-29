@@ -11923,6 +11923,50 @@ ul.activities-list li {
 }
 
 /* line 109, content/style/_termoservis.scss */
+.contact-form {
+  margin-top: 64px;
+  padding: 16px 0 12px 0;
+  background-color: #f5f5f5;
+}
+/* line 114, content/style/_termoservis.scss */
+.contact-form > .container > .row {
+  margin: 0;
+}
+/* line 118, content/style/_termoservis.scss */
+.contact-form a:hover {
+  text-decoration: none !important;
+}
+/* line 122, content/style/_termoservis.scss */
+.contact-form .col {
+  padding: 8px 0;
+}
+/* line 126, content/style/_termoservis.scss */
+.contact-form .contact-or-label {
+  padding-top: 16px;
+  font-size: 2rem;
+}
+/* line 130, content/style/_termoservis.scss */
+.contact-form .contact-phone {
+  padding-top: 12px;
+}
+/* line 133, content/style/_termoservis.scss */
+.contact-form .contact-phone i {
+  font-size: 2rem;
+  color: #424242;
+}
+/* line 137, content/style/_termoservis.scss */
+.contact-form .contact-phone span {
+  font-size: 2.5rem;
+  color: #424242;
+}
+@media only screen and (max-width: 992px) {
+  /* line 109, content/style/_termoservis.scss */
+  .contact-form {
+    margin-top: 32px;
+  }
+}
+
+/* line 148, content/style/_termoservis.scss */
 .cookies-notice {
   font-size: 0.9em;
   padding: 8px;
@@ -11932,7 +11976,7 @@ ul.activities-list li {
   border-right-width: 0;
 }
 
-/* line 118, content/style/_termoservis.scss */
+/* line 157, content/style/_termoservis.scss */
 footer {
   margin-top: 0 !important;
 }
